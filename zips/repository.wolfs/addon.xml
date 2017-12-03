@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.wolfs" name="Wolfs Repo" version="0.0.2" provider-name="The Wolf">
+	<extension point="xbmc.addon.repository" name="Wolfs Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/wolf01d/repository.wolfs/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/wolf01d/repository.wolfs/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/wolf01d/repository.wolfs/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">This is my first Repository</summary>
+		<description lang="en">I have wanted to develop my own repo so I can use my Kodi Box without any need for anyone else.</description>
+		<genre>movies,tvshows,uk</genre>
+	</extension>
+</addon>
